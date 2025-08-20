@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
+        <title>Bài 3 HTML</title>
+    </head>
+    <body>
+        <marquee behavior="scroll" direction="left"><img src="cho.jpg" alt="Scrolling Image"></marquee>
+        <h1>Bài 3</h1>
+        <p>Danh sách các công việc buổi sáng:</p>
+        <!--    Lập danh sách có đánh số với thẻ ol, li -->
+        <ol>
+            <li>Thức dậy</li>
+            <li>Đánh răng</li>
+            <li>Ăn sáng</li>
+            <li>Đi làm</li>
+        </ol>
+        <p>Các ngôn ngữ lập trình:</p>
+        <ul> <!--    Lập danh sách không có đánh số với thẻ ul, li -->
+            <li>Python</li>
+            <li>C#</li>
+            <li>PHP</li>
+            <li>Java</li>
+        </ul>
+        <!--    Lập định dạng hộp với thẻ form, input, button -->
+        <form>
+            <div> <!--lập định dạng chia khối với div -->
+            <b>Họ và tên:</b>
+            <input type="text" name="fullname" placeholder="Nhập họ và tên của bạn">
+            </div>
+            <br>
+            <div>   
+                <b>Năm sinh:</b>
+                <input type="text" name="nam" value="2025" readonly> <!--thẻ readonly chỉ xem không được sửa-->
+            </div>
+            <div>
+                <b>Giới thiệu chi tiết về bản thân:</b><br> 
+                <textarea name="gioithieu" placeholder="Nhập giới thiệu về bản thân"></textarea><!--Lập định dạng hộp văn bản với thẻ textarea -->
+            </div>
+            <br>
+            <div>
+                <b>Email:</b><br> 
+                <input type="email" name="email" placeholder="Nhập email của bạn">
+            </div>
+            <br>
+            <div>
+                <b>Số điện thoại:</b><br> <!--lập định dạng số điện thoại với thẻ tel -->
+                <input type="tel" 
+                name="sdt" 
+                placeholder="Nhập số điện thoại của bạn" 
+                required pattern="([0]{1}([0,3,9]{1}([0-9]{8})))">
+            </div>
+            <br>
+            <div>   
+                <b>Chọn giới tính:</b><br>
+                <input type="radio" name="gender" value="male" > Nam<br> <!--Lập định dạng lựa chọn duy nhất với thẻ radio -->
+                <input type="radio" name="gender" value="female"> Nữ<br>
+                <input type="radio" name="gender" value="other"> Khác<br>
+            </div> <br>
+            <div>
+                <b>Chọn sở thích:</b><br>
+                Du lịch: <input type="checkbox" name="sothich" value="du lịch"><br><!--Lập định dạng lựa chọn nhiều với thẻ checkbox -->
+                Thể thao: <input type="checkbox" name="sothich" value="thể thao"><br>
+                Âm nhạc: <input type="checkbox" name="sothich" value="âm nhạc"><br>
+            </div><br>
+            <div>
+                <b>Trình duyệt ưa thích:</b><br>
+                <!--thẻ select dùng để chọn 1 trong những option đưa ra-->
+                <select name="browser">
+                    <option value="Chrome">Chrome</option>
+                    <option value="Firefox">Firefox</option>
+                    <option value="Safari">Safari</option>
+                    <option value="Edge">Edge</option>
+                </select>
+            </div>
+            <div>
+                0<input type="range" name="20">100<br>
+            </div>
+            <div>
+                <b>Tuổi:</b><br>
+                <input type="number" name="tuoi" step="0.5">
+            </div>
+            <br>
+            <div>
+                <b>Ngày sinh:</b><br>
+                <input type="date" name="ngaysinh">
+            </div><br>
+            <div>
+                <b>Màu sắc yêu thích:</b>
+                <input type="color" name="mauyeuthich" value="#ff0000"><br>
+            </div>
+            <br>
+            <div>
+                <b>Chọn ảnh đại diện:</b><br>
+                <input type="file" name="anhdaidien">
+            </div><br>
+            <div>
+                <b>Nhập mật khẩu:</b><br>
+                <input type="password" name="matkhau" placeholder="Nhập mật khẩu của bạn">
+            </div><br>
+            <div>
+                <input type="reset" value="Nhập lại">
+            </div>
+            <div>
+                <input type="submit" value="Gửi">
+            </div> <br>
+        </form>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/yCYQ5b1555w?si=yuhEmqnn94gpF2BV"></iframe><br>
+    <video controls width="560" height="315">
+        <source src="war.mp4" type="video/mp4">
+    </video> <br>
+
+    <audio controls>
+        <source src="nhac.mp3" type="audio/mp3">
+    </audio>
+
+    </body>
+</html>
