@@ -1,0 +1,30 @@
+h3 {
+    color: navajowhite;
+}
+#title {
+    background-color: rgb(44, 161, 122);
+}
+.bg {
+    color: aquamarine;
+    background-color: rgb(7, 89, 92);
+}   
+p {
+    color: rgb(1, 1, 1);
+    background-color: rgb(44, 161, 50);
+}
+.box1{
+    background-color: blue ;
+    width: 50%;
+    margin: 50px auto;
+    /* giá trị auto là căn giữa */
+}
+.box2{
+    background-color: #fff;
+    margin: 50px 200px  ;
+    /* 1 giá trị là cách xung quanh n px */
+    /* 2 giá trị là cách trên dưới n px (giá trị 1), trái phải n px (giá trị 2)*/
+    /* nếu có 4 giá trị thì lần lượt là trên, phải, dưới, trái */
+}  
+.box3{
+    background-color: #f00;
+}
