@@ -1,0 +1,251 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: black;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    width: 70%;
+    margin: auto;
+}
+
+.danhmuc {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+.logo {
+    width: 15%;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    gap: 20px
+}
+
+a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: #9b9b9b;
+    font-size: 16px;
+    font-family: "SFProDisplay", Arial, sans-serif;
+}
+
+a:hover {
+    color: orange;
+}
+
+.chucnang {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.muagoi {
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.dangnhap {
+    background-color: black;
+    color: white;
+    border: none;
+    width: 100px;
+}
+
+main {
+    background-color: #131314;
+    color: white;
+    width: 100%;
+    /* height: 1000px; */
+}
+
+.quangcao {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 70%;
+    background-color: black;
+    /* height: 1000px; */
+    margin: auto;
+}
+
+.banner {
+    width: 98%;
+}
+
+.qc {
+    margin-top: 10px;
+    width: 98%;
+    border-radius: 10px;
+}
+
+.tentheloai {
+    margin: 20px;
+}
+
+.danhsach {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.phim {
+    width: 19%;
+}
+
+.phim img {
+    width: 100%;
+}
+
+footer {
+  background-color: #111;
+  color: #9b9b9b;
+  padding: 40px 0 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 48px;
+  flex-wrap: wrap;
+}
+
+.logo1 {
+  flex: 0 0 240px;       
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.logo1 img {
+  width: 125px;
+  height: auto;
+  display: block;
+  margin-bottom: 16px;
+}
+
+
+.gioithieu {
+  flex: 0 0 200px;
+}
+.gioithieu h1 {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 12px;
+}
+.gioithieu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.gioithieu ul li {
+  margin-bottom: 8px;
+}
+.gioithieu ul li a {
+  color: #9b9b9b;
+  text-decoration: none;
+  font-size: 14px;
+}
+.gioithieu ul li a:hover {
+  color: orange;
+}
+
+.dichvu {
+  flex: 0 0 200px;
+}
+.dichvu h1 {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 12px;
+}
+.dichvu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.dichvu ul li {
+  margin-bottom: 8px;
+}
+.dichvu ul li a {
+  color: #9b9b9b;
+  text-decoration: none;
+  font-size: 14px;
+}
+.dichvu ul li a:hover {
+  color: orange;
+}
+
+.quydinh {
+  flex: 0 0 240px;
+}
+.quydinh h1 {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 12px;
+}
+.quydinh ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.quydinh ul li {
+  margin-bottom: 8px;
+}
+.quydinh ul li a {
+  color: #9b9b9b;
+  text-decoration: none;
+  font-size: 14px;
+}
+.quydinh ul li a:hover {
+  color: orange;
+}
+
+.lienlac {
+  flex: 0 0 220px;
+}
+.lienlac h1 {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 12px;
+}
+.lienlac p {
+  margin: 0 0 8px;
+}
+
+.mangxahoi a {
+  color: #9b9b9b;
+  font-size: 18px;
+  margin-right: 10px;
+}
+.mangxahoi a:hover {
+  color: orange;
+}
+
+.footer-bottom {
+  width: 90%;
+  margin: 30px auto 0;
+  padding-top: 20px;
+  border-top: 1px solid #333;
+  font-size: 13px;
+  text-align: center;
+}
