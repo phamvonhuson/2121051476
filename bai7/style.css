@@ -1,0 +1,41 @@
+body {
+    background-color: grey;
+    color: white;
+}
+.container {
+    width: 40%;
+    background-color: black;
+    height: 700px;
+    margin: auto;
+    padding: 50px 0;
+    border-radius: 15px;
+}
+
+.noidung {
+    width: 70%;
+    background-color: black;
+    height: 300px;
+    margin: auto;
+}
+.button{
+    margin-bottom: 15px;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+.google {
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 20px;
+    background-color: green;
+    color: black;
+    border: none;
+}
+/* solid là định nghĩa kiểu đường viền liền nét cho một phần tử của border-style
+border-radius là bo tròn các góc  */
